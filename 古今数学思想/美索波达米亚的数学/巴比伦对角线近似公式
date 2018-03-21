@@ -1,0 +1,13 @@
+计算高h宽w的举行对角线d:
+d ≈ h + w^2/2h
+
+这公式在h > w 时是d的很好的近似式
+d = √(h^2 + w^2) 
+  = h√(1 + w^2/h^2)
+  = h(1 + w^2/h^2)^(1/2)
+  = h(1 + (w^2/h^2)/2)   // 印度著名的巴克沙里手稿里取√A=√(a^2 + r^2)≈a + r/2a
+  ≈ h + w^2/2h
+
+证明可参考:
+① : http://www.doc88.com/p-7932043469149.html
+② : https://wenku.baidu.com/view/d9fad191910ef12d2af9e7ed.html?re=view
