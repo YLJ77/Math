@@ -1,0 +1,73 @@
+Cartesian Products
+
+    An ordered pair (a,b) is a Set
+
+    { {a}, {a,b} }
+
+    You're seen ordered pairs before as graph coordinates
+
+
+       |
+       -  .(1,2)
+       |
+       -     .(2,1)
+       |
+   -------|--|--|--→
+       |
+       |
+       |
+       |
+
+    (1,2) = { {1}, {1,2} }
+
+    (2,1) = { {2}, {2,1} }
+
+
+The Cartesian Product, A × B, is the Set
+
+    { (a,b) | a ∈  A and b ∈  B }
+
+Given x = {0, 1, 2} and y = {0, 1}
+
+    x × y = { (0,0),(0,1),(1,0),(1,1),(2,0),(2,1) }
+
+    y × y = { (0,0),(0,1),(0,2),(1,0),(1,1),(1,2) }
+
+
+What is the cardinality of A × B
+
+    If |A| = m and |B| = n  then
+
+    |A × B| = mn
+
+
+
+Cartesian Products can generalize to n-tuples
+
+    3-tuple
+
+    A × B × C = { (a,b,c) | a ∈  A, b ∈  B, c ∈  C }
+
+    n-tuple
+
+    A1 × A2 × ... × An = { (a1, a2, ... an) | a1 ∈  A, a2 ∈  A2, ..., an ∈  An }
+
+
+
+Exercise: Let A = {a,b} and B = {c,d}
+
+    A × B = { (a,c), (a,d), (b,c), (b,d) }
+
+    B^2 = B × B = { (c,c), (c,d), (d,c), (d,d) }
+
+    ∅  × A = ∅  // |∅  × A| = |∅ | × |A| = 0 × 2 = 0
+
+
+
+Exercise: If |B| = m and |A| = n then find...
+
+    |A × B| = n · m
+
+    |A^2| = n · n = n^2
+
+    |B^32 × A^19| = m^(32)n^(19)
