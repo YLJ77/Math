@@ -1,0 +1,14 @@
+Find two Sets A and B such that A ∈ B and A ⊆  B
+
+    ∅  ⊆  B     A = ∅
+    ∅ ∈  { ∅ }  B = { ∅ }
+
+
+
+Determine if the follawing Sets are power Sets of some unknown Sets.
+
+    √ 1) {∅ } 2^0 = 1     P(∅ ) = { ∅ }
+
+    × 2) { ∅ , {a}, {∅ , a} }   3 ≠ 2^k  k ∈ Z+
+
+    √ 3) { ∅ , {a} } 2 = 2^1    P({a}) = { ∅ , {a} }
