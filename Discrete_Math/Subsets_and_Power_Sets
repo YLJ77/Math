@@ -1,0 +1,99 @@
+Subsets
+
+    If A is a Subsets of B, then every element in A must also be in B.
+           B
+    ----------------
+    |      A       |
+    | -----------  |
+    | |         |  |        
+    | |         |  |
+    | -----------  |
+    ----------------
+    
+                        A ⊆  B (A 等于或小于B)
+          A    B
+    ----------------
+    |              |
+    |              |
+    |              |        
+    |              |
+    |              |
+    ----------------
+
+
+    A ⊂ B (A 小于B) 
+
+
+
+True or False ?
+
+    {a,b,a a} ⊆  {a,b,c}    True
+
+    {c,d} ⊆  {c,d}  True
+
+    {a} ⊆  { {a} }  False
+
+    ∅  ⊆  {x,y,z}   True
+
+
+
+A power set of A, P(A), is the Set containing all ossible Subsets of A.
+
+    A = {a,b}
+
+                            ∅   2^0
+               Add a    ↙      ↘  Add nothing
+                    ↙              ↘
+                 ↙                    ↘
+               {a}                      ∅   2^1
+     Add b  ↙    ↘  Add nothing         ↙   ↘
+          ↙        ↘            Add b ↙       ↘  Add nothing
+        {a,b}       {a}              {b}       ∅    2^2
+
+
+P(A) = {∅, {a}, {b}, {a,b}}
+
+
+If |A| = n, then |P(A)| = 2^(|A|) = 2^n
+
+    For each element, we can add it to a Subset,
+    or we cannot add it to a subset.
+
+
+
+Tricky Questions
+
+    P(∅ ) = {∅ } = { {} }
+
+    P({∅ }) = { ∅ ,{∅ } }
+
+    Is A ⊆  P(A) for any A ? No
+
+    Is A ∈ P(A) for any A ? Yes
+
+
+
+Exercises
+
+    Let |C| = k and |D| = j, what is |P(C × D)| ?
+
+        |C × D| = |C| × |D|
+                = kj
+
+        |P(C × D)| = 2^(C × D)
+                   = 2^(kj)
+
+
+    List the elements of P(P(∅ ))
+
+        P({∅ }) = {∅ , {∅ }}
+
+
+    If |A| = m, what is |P(P(P(A)))|?
+
+        |P(P(P(A)))| = 2^(P(P(A)))
+                     = 2^2^(P(A))
+                     = 2^2^2^(|A|)
+                     = 2^2^2^m
+
+    
